@@ -1,7 +1,7 @@
 
 ### TT-CHANGES 
 
-nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions.
+The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions.
 
 
 **Supported Requests:**
@@ -34,7 +34,7 @@ _No Historic Data Found_
 
 ### TT-CONFIDENCE 
 
-Confidence in nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time.
+Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json.
 
 
 **Supported Requests:**
@@ -67,7 +67,7 @@ _No Historic Data Found_
 
 ### TT-CONSTRUCTION 
 
-Tools are provided to build nlohmann/json library from trusted sources (also provided) with full reproducibility.
+Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility.
 
 
 **Supported Requests:**
@@ -101,7 +101,7 @@ _No Historic Data Found_
 
 ### TT-EXPECTATIONS 
 
-Documentation is provided, specifying what nlohmann/json library is expected to do, and what it must not do, and how this is verified.
+Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified.
 
 
 **Supported Requests:**
@@ -136,7 +136,7 @@ _No Historic Data Found_
 
 ### TT-PROVENANCE 
 
-All inputs (and attestations for claims) for nlohmann/json library are provided with known provenance.
+All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance.
 
 
 **Supported Requests:**
@@ -169,7 +169,7 @@ _No Historic Data Found_
 
 ### TT-RESULTS 
 
-Evidence is provided to demonstrate that nlohmann/json library does what it is supposed to do, and does not do what it must not do.
+Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do.
 
 
 **Supported Requests:**
