@@ -140,11 +140,16 @@ in case of a custom description.
 
 ## TimeVaryingWebReference
 
-The content of a `TimeVaryingWebReference` is given by the content of a changelog, whose default value is `ChangeLog.md`, which mirrors the changelog of nlohmann/json. This reference is intended for websites whose content is constantly changing, so that a `WebContentReference` makes the item un-reviewable, but whose content at the time of an update influences the trustability. An example is `https://github.com/nlohmann/json/pulse/monthly`, which can be used to demonstrate that nlohmann/json is *up to the most recent version* under active development.
+This reference type is intended for websites whose content evolves constantly, making a static WebContentReference unsuitable, while still letting the state of the project at the time of an update influence trustability. For example, https://github.com/nlohmann/json/pulse/monthly can be used to demonstrate that nlohmann/json is up to the most recent version under active development. The content of a TimeVaryingWebReference is determined by a changelog file in this repository. By default, this is ChangeLog.md, which mirrors the upstream changelog of nlohmann/json. 
 
-An example of the complete configuration for `TimeVaryingWebReference` is
+Important clarifications:
 
-```
+The system checks the ChangeLog.md within our own repository. It does not read or rely on external changelogs or any files in external repositories.
+Whenever nlohmann/json publishes a new release/patch and we integrate it into our repository, our ChangeLog.md will be updated accordingly (since we mirror upstream changes). Any change to this changelog will automatically set the review_status of all TimeVaryingWebReferences to unreviewed, meaning they are invalidated and must be re-reviewed.
+The changelog argument defaults to "ChangeLog.md", which is the correct path to the changelog in this repo. You only need to specify the changelog argument if the file is moved or renamed.
+An example of the complete configuration for TimeVaryingWebReference (overriding the changelog path) is:
+
+
 ---
 ...
 references:
@@ -153,8 +158,17 @@ references:
   description: "Wiki article on the smooth Serre-Swan theorem"
   changelog: "ideas/graded/graded_Serre_Swan.tex"
 ---
-```
-where `description` and `changelog` are optional arguments.
+In the common case (using the default ChangeLog.md in this repository), you can omit the changelog argument:
+
+
+---
+...
+references:
+- type: project_website
+  url: "https://github.com/nlohmann/json/pulse/monthly"
+  description: "Development activity for nlohmann/json"
+---
+Both description and changelog are optional arguments.
 
 ## ListOfTestCases
 
