@@ -183,7 +183,7 @@ Both `description` and `changelog` are optional arguments.
 
 ## ListOfTestCases
 
-A `ListOfTestCases` reference produces a markdown overview of all unit tests and nested sections found in the provided directories and files and augments this structure with recent execution environments from a test-results database. This provides a concise map of the test suite together with information on where it has been executed successfully or with skips.
+A `ListOfTestCases` reference produces a markdown overview of all unit tests and nested sections found in the provided directories and files and augments this structure with recent execution environments from a test-results database (currently "artifacts/MemoryEfficientTestResults.db"). This provides a concise map of the test suite together with information on where it has been executed successfully or with skips.
 
 The reference scans files matching the pattern `unit-*.cpp` to extract `TEST_CASE` and `SECTION` names and their nesting, and it formats the results as nested lists to mirror the test structure. It then queries the database of recent test runs to list the compiler and standard combinations that executed all tests without skipping, as well as those where some tests were skipped, and it incorporates these details into the same markdown report. The content returned for hashing is the complete markdown report, which the documentation also renders directly.
 
