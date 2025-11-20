@@ -398,6 +398,8 @@ evidence:
 
 The combinator validator serves as a meta-validator that enables the evaluation of complex items by running multiple validators and combining their scores into a single result using a weighted average. It accepts a list of validator configurations and optional weights, executes each validator independently, and then computes the weighted mean of their scores. If no weights are specified, all validators are treated equally. The validator supports a predefined set of underlying validator types and aggregates their exceptions and warnings in its output. All weights must be non-negative, and if the sum of weights is zero, the combinator returns a score of 0.0.
 
+The trudag tool does currently not support the use of multiple custom validators for one single TSF statement.
+
 The combinator accepts a list of validators, each with its own configuration and optional weight. Each validator is executed independently, and their scores are combined using the formula: `(score1 * weight1 + score2 * weight2 + ...) / (weight1 + weight2 + ...)`. If no weights are specified, all validators are treated with equal weight (weight = 1.0).
 
 The combinator supports the following validator types:
