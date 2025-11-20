@@ -148,7 +148,7 @@ in case of a custom description.
 
 ## TimeVaryingWebReference
 
-Use this reference when the content of a site changes continuously, but you want the trustability of your report to depend on the project’s state in your repository. The content for hashing is the changelog file from this repository prefixed with the URL. For example, https://github.com/nlohmann/json/pulse/monthly can be used to demonstrate that `nlohmann/json` is up to the most recent version under active development. The content of a `TimeVaryingWebReference` is determined by a changelog file in this repository. By default, this is `ChangeLog.md`, which mirrors the upstream changelog of `nlohmann/json`. 
+Use this reference when the content of a site changes continuously, but the mere existence and reachability of the site is not sufficient to support the statement. In other words, use this reference if the site requires regular re-reviews. The content for hashing is the changelog file from this repository prefixed with the URL. For example, https://github.com/nlohmann/json/pulse/monthly can be used to demonstrate that `nlohmann/json` is up to the most recent version under active development. The content of a `TimeVaryingWebReference` is determined by a changelog file in this repository. By default, this is `ChangeLog.md`, which mirrors the upstream changelog of `nlohmann/json`. 
 
 As with WebReference, consider an https_response_time validator to check reachability of the URL if needed.
 
