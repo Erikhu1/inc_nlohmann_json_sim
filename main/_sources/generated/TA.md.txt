@@ -37,16 +37,19 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
 This assertion is satisfied to the extent that test data, and data collected
-from monitoring of deployed versions of XYZ, has been analysed, and the results
+from monitoring of deployed versions of nlohmann/json, has been analysed, and the results
 used to inform the refinement of Expectations and risk analysis.
 
 The extent of the analysis is with sufficient precision to confirm that:
@@ -172,22 +175,25 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 Although it is practically impossible to specify all of the necessary behaviours
 and required properties for complex software, we must clearly specify the most
 important of these (e.g. where harm could result if given criteria are not met),
-and verify that these are correctly provided by XYZ.
+and verify that these are correctly provided by nlohmann/json.
 
 **Guidance**
 
 This assertion is satisfied to the extent that we have:
 
-- Determined which Behaviours are critical for consumers of XYZ and recorded
+- Determined which Behaviours are critical for consumers of nlohmann/json and recorded
   them as Expectations.
 - Verified these Behaviours are achieved.
 
@@ -304,11 +310,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 **Guidance**
 
@@ -418,11 +427,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |N/A|
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 **Guidance**
 
@@ -550,11 +562,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 **Guidance**
 
@@ -661,20 +676,23 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
-This assertion is satisfied to the extent that we have identified, triaged, and applied fixes or mitigations to faults in XYZ, as well as to bugs and publicly disclosed vulnerabilities identified in upstream dependencies.
+This assertion is satisfied to the extent that we have identified, triaged, and applied fixes or mitigations to faults in nlohmann/json, as well as to bugs and publicly disclosed vulnerabilities identified in upstream dependencies.
 
-Confidence can be improved by assessing known faults, bugs, and vulnerabilities to establish their relevance and impact for XYZ.
+Confidence can be improved by assessing known faults, bugs, and vulnerabilities to establish their relevance and impact for nlohmann/json.
 An important aspect is documenting how issues are discovered and tracked, including identifying additional Misbehaviours (TA-MISBEHAVIOURS) that may require immediate mitigation measures (including recalls), and how such issues are communicated to users.
 
-In principle, this analysis should include not only the code in XYZ but also its dependencies (all the way down) and the tools and data used to construct the release.
+In principle, this analysis should include not only the code in nlohmann/json but also its dependencies (all the way down) and the tools and data used to construct the release.
 In practice, however, the cost/benefit of this work must be weighed against:
 
 - the volume and quality of available bug and vulnerability reports
@@ -702,7 +720,7 @@ As part of ongoing monitoring, the rate of incoming, resolved, and rejected issu
 - List of outstanding known vulnerabilities still not fixed, with triage/prioritisation based
   on severity/relevance/impact
   - **Answer**: Provided in JLS-30, JLS-33 and AOU-29
-- List of XYZ component versions, showing where a newer version exists upstream
+- List of nlohmann/json component versions, showing where a newer version exists upstream
   - **Answer**: Not relevant since nlohmann/json has no external components, as stated in JLS-34
 - List of component version updates since last release
   - **Answer**: Not relevant as nlohmann/json has no external components, as stated in JLS-34
@@ -710,18 +728,18 @@ As part of ongoing monitoring, the rate of incoming, resolved, and rejected issu
   - **Answer**: Provided in JLS-29
 - List of fixes for developed code that are outstanding, not applied yet
   - **Answer**: Provided in JLS-11
-- List of XYZ faults outstanding (O)
+- List of nlohmann/json faults outstanding (O)
   - **Answer**: Provided in JLS-11
-- List of XYZ faults fixed since last release (F)
+- List of nlohmann/json faults fixed since last release (F)
   - **Answer**: Provided in JLS-29
-- List of XYZ faults mitigated since last release (M)
+- List of nlohmann/json faults mitigated since last release (M)
   - **Answer**: Provided in JLS-29
 
 **Confidence scoring**
 
 Confidence scoring for TA-FIXES can be based on
 
-- some function of [O, F, M] for XYZ
+- some function of [O, F, M] for nlohmann/json
 - number of outstanding relevant bugs from components
 - bug triage results, accounting for undiscovered bugs
 - number of outstanding known vulnerabilities
@@ -734,36 +752,36 @@ Each iteration, we should improve the algorithm based on measurements
 
 **Checklist**
 
-- How many faults have we identified in XYZ?
-  - **Answer**: None that are relevant for S-CORE's use case of the library.
+- How many faults have we identified in nlohmann/json?
+  - **Answer**: 58, but none are relevant for S-CORE's use case of the library (see JLS-11).
 - How many unknown faults remain to be found, based on the number that have
   been processed so far?
   - **Answer**: It is unlikely that there are unknown faults relevant to S-CORE.
 - Is there any possibility that people could be motivated to manipulate the
   lists (e.g. bug bonus or pressure to close).
-  - **Answer**: Unlikely, since the project is entirely open source.
+  - **Answer**: It is unlikely that people would be motivated to manipulate the lists in nlohmann/json. The nlohmann/json project has no bug bounties, and since it is open source, third party individuals suggest fixes with no pressure/incentive to manipulate unfixed issues.
 - How many faults may be unrecorded (or incorrectly closed, or downplayed)?
-  - **Answer**: Few or none, considering the wide use of the nlohmann/json library.
+  - **Answer**: Few or none, considering the wide use of the nlohmann/json library (see JLS-05).
 - How do we collect lists of bugs and known vulnerabilities from components?
   - **Answer**: We pull the list from the issues reported to nlohmann/json labelled as bug and are currently open or were opened since the last release. This list is then stored using GitHub, thereby enabling a traceability of the list.
 - How (and how often) do we check these lists for relevant bugs and known vulnerabilities?
   - **Answer**: Whenever we generate the documentation, the list is pulled. If there is an issue previously unrecorded, then the maintainer is encouraged by the change of the trustable score to check the relevance of the issue.
 - How confident can we be that the lists are honestly maintained?
-  - **Answer**: Very confident, since the authors of the issues in the list mainly comprise of independent downstream users.
+  - **Answer**: Very confident, since the authors of the issues in the list mainly comprise independent downstream users.
 - Could some participants have incentives to manipulate information?
   - **Answer**: No such incentives have been identified.
 - How confident are we that the lists are comprehensive?
-  - **Answer**: Fairly confident, considering the wide use of the library and that downstream users are likely to report discovered bugs.
+  - **Answer**: Fairly confident, considering the wide use of the library (see JLS-05) and that downstream users are likely to report discovered bugs.
 - Could there be whole categories of bugs/vulnerabilities still undiscovered?
-  - **Answer**: Unlikely, considering the wide use of the library and that downstream users are likely to report discovered bugs.
+  - **Answer**: Unlikely, considering the wide use of the library (see JLS-05) and that downstream users are likely to report discovered bugs.
 - How effective is our triage/prioritisation?
   - **Answer**: There is no development of the json library within S-CORE, and therefore no triage/prioritisation. Any identified bugs/vulnerabilities are reported to nlohmann/json. Within nlohmann/json, no formal triage process has been identified. Nevertheless, reported bugs and vulnerabilities seem to be handled in a timely manner.
 - How many components have never been updated?
   - **Answer**: None, the nlohmann/json library consists of a single header file, which the only component. This component is up to date.
 - How confident are we that we could update them?
-  - **Answer**: If a new version of the nlohmann/json library is released, we are very confident that we can update to that version.
+  - **Answer**: Within nlohmann/json, there are no external components to update. Within S-CORE, if a new version of the nlohmann/json library is released, we are very confident that we can update to that version. (See the update process in TSF/README.md)
 - How confident are we that outstanding fixes do not impact our Expectations?
-  - **Answer**: No outstanding fixes that impact the Expectation have been identified.
+  - **Answer**: No outstanding fixes that impact the Expectations have been identified.
 - How confident are we that outstanding fixes do not address Misbehaviours?
   - **Answer**: Very confident, as no Misbehaviours have been identified.
 
@@ -805,11 +823,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |
 |2025-11-20 10:55:40|0.00 |
 |2025-11-24 08:25:25|0.00 |
-|2025-11-24 09:14:47.939016|0.00 |
+|2025-11-24 15:01:45|0.00 |
+|2025-11-24 16:01:36.351428|0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 Not all deviations from Expected Behaviour can be associated with a specific
 condition. Therefore, we must have a strategy for managing deviations that
@@ -951,31 +972,34 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
-Anything that can influence the output of the XYZ project is considered an input.
+Anything that can influence the output of the nlohmann/json project is considered an input.
 This includes:
 
 - Software components used to implement specified features and meet defined Expectations
 - Software tools, and their outputs, used for design, construction and verification
 - Infrastructure that supports development and release processes
 
-All inputs (components, tools, data) and their dependencies (recursively) used to build and verify XYZ releases must be identified and assessed, since they are untrusted by default.
+All inputs (components, tools, data) and their dependencies (recursively) used to build and verify nlohmann/json releases must be identified and assessed, since they are untrusted by default.
 
 Each input should be evaluated on verifiable merits, regardless of any claims it makes (including adherence to standards or guidance).
 Evaluation must include the project's defined Expectations to ensure that inputs meet requirements, and that risks are recorded and addressed appropriately.
 
-For components, we need to consider how their misbehaviour might impact achieving project XYZ's Expectations.
+For components, we need to consider how their misbehaviour might impact achieving project nlohmann/json's Expectations.
 Sources (e.g. bug databases, advisories) for known risks should be identified, their update frequency recorded, and tests defined for detecting them.
 These form the inputs to TA-FIXES.
 
-For the tools used to construct and verify XYZ, we need to consider how their misbehaviour could:
+For the tools used to construct and verify nlohmann/json, we need to consider how their misbehaviour could:
 
 - Introduce unintended changes
 - Fail to detect Misbehaviours during testing
@@ -999,7 +1023,7 @@ As a result, for example, any binary inputs without reproducible build steps or 
 
 **Evidence**
 
-- List of components used to build XYZ, including:
+- List of components used to build nlohmann/json, including:
   - Whether content is provided as source or binary
     - **Answer**: 
 - Record of component assessments:
@@ -1007,20 +1031,20 @@ As a result, for example, any binary inputs without reproducible build steps or 
     - **Answer**: 
   - Date of assessments and identity of assessors
     - **Answer**: 
-  - Role of component in XYZ
+  - Role of component in nlohmann/json
     - **Answer**: 
   - Sources of bug and risk data
     - **Answer**: 
   - Potential misbehaviours and risks identified and assessed
     - **Answer**: 
-- List of tools used to build and verify XYZ
+- List of tools used to build and verify nlohmann/json
   - **Answer**: 
 - Record of tool assessments:
   - Originating project and tool version
     - **Answer**: 
   - Date of assessments and identity of assessors
     - **Answer**: 
-  - Role of the tool in XYZ releases
+  - Role of the tool in nlohmann/json releases
     - **Answer**: 
   - Potential misbehaviours and impacts
     - **Answer**: 
@@ -1033,7 +1057,7 @@ As a result, for example, any binary inputs without reproducible build steps or 
 
 Confidence scoring for TA-INPUTS is based on the set of components and tools
 identified, how many of (and how often) these have been assessed for their risk
-and impact for XYZ, and the sources of risk and issue data identified.
+and impact for nlohmann/json, and the sources of risk and issue data identified.
 
 **Checklist**
 
@@ -1111,11 +1135,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 **Guidance**
 
@@ -1228,15 +1255,18 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
-To satisfy this assertion, all manual processes used in the verification of XYZ must be documented, including the methodologies applied, the results for specific aspects and iterations, and evidence that these processes were reviewed against documented criteria.
+To satisfy this assertion, all manual processes used in the verification of nlohmann/json must be documented, including the methodologies applied, the results for specific aspects and iterations, and evidence that these processes were reviewed against documented criteria.
 
 Most analysis (e.g., data analysis for TA-ANALYSIS) should be automated to enable continuous feedback.
 However, the quality of any remaining manual processes (whether from first parties or external third parties) must be considered and how they are documented and reviewed.
@@ -1345,11 +1375,14 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
+
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 The goal of TA-MISBEHAVIOURS is to force engineers to think critically about their work.
 This means understanding and mitigating as many of the situations that cause the
@@ -1360,7 +1393,7 @@ the contents of the final binary.
 
 This assertion is satisfied to the extent that we can:
 
-- Show we have identified all of the ways in which XYZ could deviate from its
+- Show we have identified all of the ways in which nlohmann/json could deviate from its
   Expected Behaviours.
 - Demonstrate that mitigations have been specified, verified and validated for
   all Misbehaviours.
@@ -1405,11 +1438,11 @@ Mitigations could be verified by:
 - Stress testing of assumptions of use. That is, confirming assumptions of use
   are actually consistent with the system and its Expected Behaviours by
   intentionally misinterpreting or liberally interpreting them in a test
-  environment. For example, we could consider testing XYZ on different pieces of
+  environment. For example, we could consider testing nlohmann/json on different pieces of
   hardware that satisfy its assumptions of use.
 
 Remember that a Misbehaviour is _anything_ that could lead to a deviation from
-Expected Behaviour. The specific technologies in and applications of XYZ should
+Expected Behaviour. The specific technologies in and applications of nlohmann/json should
 always be considered in addition to the guidance above.
 
 At the core, a faulty design is inherently difficult to mitigate. The first
@@ -1526,21 +1559,24 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
-This assertion is satisfied if each iteration of XYZ is *repeatable*, with all
-required inputs controlled, and *reproducible* (covering both XYZ and the
+This assertion is satisfied if each iteration of nlohmann/json is *repeatable*, with all
+required inputs controlled, and *reproducible* (covering both nlohmann/json and the
 construction toolchain/environment, as described in TA-TESTS).
 
 This assertion can be most effectively satisfied in a Continuous Integration
 environment with mirrored projects (see TA-SUPPLY_CHAIN) and build servers
-without internet access. The aim is to show that all build tools, XYZ
+without internet access. The aim is to show that all build tools, nlohmann/json
 components, and dependencies are built from controlled inputs, that rebuilding
 produces the same binary fileset, and that builds can be repeated on any
 suitably configured server, with server differences shown not to affect
@@ -1559,7 +1595,7 @@ reproducibility.
 
 As a result, we gain increased confidence that the toolchain behaves correctly
 during version upgrades: unintended changes to the project are avoided, intended
-fixes produce the expected effects, and the constructed output of XYZ shows the
+fixes produce the expected effects, and the constructed output of nlohmann/json shows the
 correct behavioural changes, verified and validated with test results according
 to TT-RESULTS analysis.
 
@@ -1647,18 +1683,21 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
 This assertion is satisfied to the extent that we have traced and captured
-source code for XYZ and all of its dependencies (including transitive
+source code for nlohmann/json and all of its dependencies (including transitive
 dependencies, all the way down), and for all of the tools used to construct
-XYZ from source, and have mirrored versions of these inputs under our control.
+nlohmann/json from source, and have mirrored versions of these inputs under our control.
 Any associated data and documentation dependencies must also be considered.
 
 'Mirrored' in this context means that we have a version of the upstream project
@@ -1678,12 +1717,12 @@ binaries present within the repositories of the components and tools used.
 
 **Evidence**
 
-- list of all XYZ components including
+- list of all nlohmann/json components including
   - URL of mirrored projects in controlled environment
     - **Answer**: 
   - URL of upstream projects
     - **Answer**: 
-- successful build of XYZ from source
+- successful build of nlohmann/json from source
   - without access to external source projects
     - **Answer**: 
   - without access to cached data
@@ -1756,23 +1795,26 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
 This assertion is satisfied if all build and test environments and tools used to support Expectations are shown to be
 *reproducible*, all build and test steps are *repeatable*, and all required inputs are controlled.
-TA-TESTS does not include reproducibility of XYZ itself, this is instead included in TA-RELEASES.
+TA-TESTS does not include reproducibility of nlohmann/json itself, this is instead included in TA-RELEASES.
 
 All tools and test environments should be constructed from change-managed sources (see TA-UPDATES) and mirrored
 sources (see TA-SUPPLY_CHAIN).
 Additional evidence needs to demonstrate that construction of tools and environments produces the same binary fileset
 used for testing and that builds can be repeated on any suitably configured server
-(similar to how the XYZ is evaluated for TA-RELEASES).
+(similar to how the nlohmann/json is evaluated for TA-RELEASES).
 
 Test environment repeatability should be ensured to enable effective Misbehaviour investigations, and enable additional
 data generations (including those by third parties).
@@ -1855,15 +1897,18 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
-This assertion requires control over all changes to XYZ, including configurations, components, tools, data, documentation, and dependency versions used to build, verify, and validate it.
+This assertion requires control over all changes to nlohmann/json, including configurations, components, tools, data, documentation, and dependency versions used to build, verify, and validate it.
 
 As part of change control, all automated checks must run and pass (e.g., tests, static analysis, lint checks) before accepting proposed changes.
 These checks must be configured against appropriate claims and coding guidelines.
@@ -1899,28 +1944,28 @@ Ultimately, the trustable controlled process is the only path to production for 
 **Evidence**
 
 - change management process and configuration artifacts
-  - **Answer**: Provided in JLS-06, JLS-07, JLS-12, JLS-32, JLS-34 and JLS-35. 
+  - **Answer**: Provided in JLS-06, JLS-07, JLS-12, JLS-32, JLS-34, JLS-35 and AOU-27. 
 
 **Confidence scoring**
 
 Confidence scoring for TA-UPDATES is based on confidence that we have
-control over the changes that we make to XYZ, including its configuration and
+control over the changes that we make to nlohmann/json, including its configuration and
 dependencies.
 
 **Checklist**
 
 - Where are the change and configuration management controls specified?
-  - **Answer**: In the contribution guidelines and security policy. 
+  - **Answer**: In the [contribution guidelines](https://github.com/nlohmann/json?tab=contributing-ov-file#readme) and [security policy](https://github.com/nlohmann/json?tab=security-ov-file#readme). 
 - Are these controls enforced for all of components, tools, data, documentation and configurations?
   - **Answer**: Yes. Any proposed change is subject to the same change controls.
 - Are there any ways in which these controls can be subverted, and have we mitigated them?
   - **Answer**: No. The controls are enforced using branch protection rules and are mostly automated.
 - Does change control capture all potential regressions?
-  - **Answer**: Yes. All changes are rigorously tested in a separate branch before being deployed to the master branch.
+  - **Answer**: Yes. All changes are tested in the branch '[develop](https://github.com/nlohmann/json/actions?query=branch%3Adevelop)' before being deployed to the master branch.
 - Is change control timely enough?
-  - **Answer**: The change control is indeed timely enough, mainly due to the fact that the nlohmann/json library is open source and has many contributors.
+  - **Answer**: The change control is indeed timely enough. Any [issues](https://github.com/nlohmann/json/issues) or [discussions](https://github.com/nlohmann/json/discussions) opened are addressed within a reasonable time frame.
 - Are all guidance and checks understandable and consistently followed?
-  - **Answer**: Yes. The contribution guidelines and CI workflows are clear and well-documented, as well as automatically enforced.
+  - **Answer**: Yes. The [contribution guideline](https://github.com/nlohmann/json?tab=contributing-ov-file#readme) is clear and well-documented, and checks are enforced through automatic [CI workflows](https://github.com/nlohmann/json/tree/develop/.github/workflows).
 
 
 ---
@@ -1963,16 +2008,19 @@ _None_
 |2025-11-19 13:45:36|0.00 |0.00 |0.00 |
 |2025-11-20 10:55:40|0.00 |0.00 |0.00 |
 |2025-11-24 08:25:25|0.00 |0.00 |0.00 |
-|2025-11-24 09:14:47.939016|0.00 |0.00 |0.00 |
+|2025-11-24 15:01:45|0.00 |0.00 |0.00 |
+|2025-11-24 16:01:36.351428|0.00 |0.00 |0.00 |
 
 
 
 ---
 
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+
 **Guidance**
 
 This assertion is satisfied when tests demonstrate that the features specified to meet project Expectations (TT-EXPECTATIONS) are present and function as intended.
-These tests run repeatedly in a controlled environment (TA-TESTs) on a defined schedule (e.g., daily, per change, or per candidate release of XYZ).
+These tests run repeatedly in a controlled environment (TA-TESTs) on a defined schedule (e.g., daily, per change, or per candidate release of nlohmann/json).
 
 Confidence grows when tests not only verify Expectations but also validate (continuously) that they meet stakeholder and user needs.
 Robust validation depends on three aspects:
