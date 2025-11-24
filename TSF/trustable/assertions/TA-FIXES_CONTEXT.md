@@ -79,21 +79,21 @@ Each iteration, we should improve the algorithm based on measurements
   - **Answer**: It is unlikely that there are unknown faults relevant to S-CORE.
 - Is there any possibility that people could be motivated to manipulate the
   lists (e.g. bug bonus or pressure to close).
-  - **Answer**: Unlikely, since the project is entirely open source.
+  - **Answer**: It is unlikely that people would be motivated to manipulate the lists in nlohmann/json. The nlohmann/json project has no bug bounties, and since it is open source, third party individuals suggest fixes with no pressure/incentive to manipulate unfixed issues.
 - How many faults may be unrecorded (or incorrectly closed, or downplayed)?
-  - **Answer**: Few or none, considering the wide use of the nlohmann/json library.
+  - **Answer**: Few or none, considering the wide use of the nlohmann/json library (see JLS-05).
 - How do we collect lists of bugs and known vulnerabilities from components?
   - **Answer**: We pull the list from the issues reported to nlohmann/json labelled as bug and are currently open or were opened since the last release. This list is then stored using GitHub, thereby enabling a traceability of the list.
 - How (and how often) do we check these lists for relevant bugs and known vulnerabilities?
   - **Answer**: Whenever we generate the documentation, the list is pulled. If there is an issue previously unrecorded, then the maintainer is encouraged by the change of the trustable score to check the relevance of the issue.
 - How confident can we be that the lists are honestly maintained?
-  - **Answer**: Very confident, since the authors of the issues in the list mainly comprise of independent downstream users.
+  - **Answer**: Very confident, since the authors of the issues in the list mainly comprise independent downstream users.
 - Could some participants have incentives to manipulate information?
   - **Answer**: No such incentives have been identified.
 - How confident are we that the lists are comprehensive?
-  - **Answer**: Fairly confident, considering the wide use of the library and that downstream users are likely to report discovered bugs.
+  - **Answer**: Fairly confident, considering the wide use of the library (see JLS-05) and that downstream users are likely to report discovered bugs.
 - Could there be whole categories of bugs/vulnerabilities still undiscovered?
-  - **Answer**: Unlikely, considering the wide use of the library and that downstream users are likely to report discovered bugs.
+  - **Answer**: Unlikely, considering the wide use of the library (see JLS-05) and that downstream users are likely to report discovered bugs.
 - How effective is our triage/prioritisation?
   - **Answer**: There is no development of the json library within S-CORE, and therefore no triage/prioritisation. Any identified bugs/vulnerabilities are reported to nlohmann/json. Within nlohmann/json, no formal triage process has been identified. Nevertheless, reported bugs and vulnerabilities seem to be handled in a timely manner.
 - How many components have never been updated?
@@ -101,6 +101,6 @@ Each iteration, we should improve the algorithm based on measurements
 - How confident are we that we could update them?
   - **Answer**: Within nlohmann/json, there are no external components to update. Within S-CORE, if a new version of the nlohmann/json library is released, we are very confident that we can update to that version. (See the update process in TSF/README.md)
 - How confident are we that outstanding fixes do not impact our Expectations?
-  - **Answer**: No outstanding fixes that impact the Expectation have been identified.
+  - **Answer**: No outstanding fixes that impact the Expectations have been identified.
 - How confident are we that outstanding fixes do not address Misbehaviours?
   - **Answer**: Very confident, as no Misbehaviours have been identified.
