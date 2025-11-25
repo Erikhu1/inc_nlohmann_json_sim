@@ -46,7 +46,7 @@ sufficient.
 **Evidence**
 
 - List of Expectations
-  - **Answer**: # Currently in clarification with Codethink whether the list of expectations applies to nlohmann/json (the 3rd party lib) or to its usage within s-core (which could lead to different expectations)
+  - **Answer**: The expectations are provided via JLEX-01 and JLEX-02.
 - Argument of sufficiency for break-down of expected behaviour for all 
   Expectations
   - **Answer**: # Not sure how to argument here. There is now way to prove that.
