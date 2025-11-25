@@ -38,8 +38,8 @@ scores given to Statements
 - What is the algorithm for combining/comparing the scores?
   - **Answer**: The algorithm behind the scoring in given in JLS-09
 - How confident are we that this algorithm is fit for purpose?
-  - **Answer**: The scoring algorithm is still being reviewed by the SMEs involved in the TSF work and is aligned with the TSF methodology described (see also JLS-09). At the moment, the scores are based on only a small number of SME inputs and statistically robust results require a larger number of SME reviewers to profit from the law-of-large-numbers.
+  - **Answer**: We are confident that the scoring algorithm is fit for purpose and is aligned with the TSF methodology described (see also JLS-09). However, at the moment, the statements require a larger number of SME reviewers to profit from the law-of-large-numbers and arrive at statistically significant scores.
 - What are the trends for each score?
-  - **Answer**: At the moment we have only a very limited score history (essentially a single major scoring iteration), so we cannot yet derive meaningful long-term trends. The infrastructure to store historical scores (see JLS-20) is already in place.
+  - **Answer**: At the moment, there are no trends as all statements have the review-status 'unreviewed'. However, the infrastructure for saving history of scores is already in place (see JLS-20).
 - How well do our scores correlate with external feedback signals?
   - **Answer**: Such correlation can not be measured yet due to missing data.
