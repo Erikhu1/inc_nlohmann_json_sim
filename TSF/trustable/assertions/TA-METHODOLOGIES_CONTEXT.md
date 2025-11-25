@@ -51,7 +51,7 @@ in comparison to the analysed results
 **Checklist**
 
 - Are the identified gaps documented clearly to justify using a manual process?
-  - **Answer**: Manual processes are introduced where automation is not feasible and are clearly documented. While no explicit justification for each manual step is provide, the rationale is generally clear from the surrounding context.
+  - **Answer**: Manual processes are introduced where automation is not feasible and are clearly documented. While no explicit justification for each manual step is provided, the rationale is generally clear from the surrounding context.
 - Are the goals for each process clearly defined?
   - **Answer**: Yes. For the manual processes that were found the goals are clearly defined in the corresponding documentation. The goals include ensuring that user-facing documentation accurately reflect behavioural and API changes, correctly handling bug and vulnerability reports, and keeping the test suite at (or close to) 100% coverage for non-trivial changes.
 - Is the sequence of procedures documented in an unambiguous manner?
