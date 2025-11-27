@@ -5,13 +5,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
-### [#5013](https://github.com/nlohmann/json/issues/5013)
-- **Title:** An object is used after it's moved
-- **State:** OPEN
-- **Created At:** 2025-11-24T15:32:02Z
-
-
-
 ### [#5012](https://github.com/nlohmann/json/issues/5012)
 - **Title:** error_handler_t::ignore documentation is incorrect
 - **State:** OPEN
@@ -256,6 +249,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 ## Closed Issues (since version 3.12.0)
+
+### [#5013](https://github.com/nlohmann/json/issues/5013)
+- **Title:** An object is used after it's moved
+- **State:** CLOSED
+- **Created At:** 2025-11-24T15:32:02Z
+
+
 
 ### [#4946](https://github.com/nlohmann/json/issues/4946)
 - **Title:** Failure with cmake 4.1
