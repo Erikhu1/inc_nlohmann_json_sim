@@ -12,7 +12,7 @@
 <!-- TRUSTABLE&#45;SOFTWARE -->
 <g id="node1" class="node">
 <title>TRUSTABLE&#45;SOFTWARE</title>
-<g id="a_node1"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
+<g id="a_node1"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
 <polygon fill="none" stroke="black" points="368.5,-839 120.5,-839 120.5,-756 368.5,-756 368.5,-839"/>
 <text text-anchor="middle" x="244.5" y="-823.8" font-family="Open Sans" font-size="14.00">TRUSTABLE&#45;SOFTWARE: This</text>
 <text text-anchor="middle" x="244.5" y="-808.8" font-family="Open Sans" font-size="14.00">release of JSON&#45;Library</text>
@@ -25,7 +25,7 @@
 <!-- TT&#45;CONSTRUCTION -->
 <g id="node5" class="node">
 <title>TT&#45;CONSTRUCTION</title>
-<g id="a_node5"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TT-CONSTRUCTION_graph.svg" xlink:title="TT&#45;CONSTRUCTION: Tools\nare provided to build\nthe nlohmann/json library\nfrom trusted sources\n(also provided) with\nfull reproducibility.\n" target="_top">
+<g id="a_node5"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TT-CONSTRUCTION_graph.svg" xlink:title="TT&#45;CONSTRUCTION: Tools\nare provided to build\nthe nlohmann/json library\nfrom trusted sources\n(also provided) with\nfull reproducibility.\n" target="_top">
 <polygon fill="none" stroke="black" points="342.5,-612 146.5,-612 146.5,-514 342.5,-514 342.5,-612"/>
 <text text-anchor="middle" x="244.5" y="-596.8" font-family="Open Sans" font-size="14.00">TT&#45;CONSTRUCTION: Tools</text>
 <text text-anchor="middle" x="244.5" y="-581.8" font-family="Open Sans" font-size="14.00">are provided to build</text>
@@ -45,7 +45,7 @@
 <!-- JLS&#45;14 -->
 <g id="node2" class="node">
 <title>JLS&#45;14</title>
-<g id="a_node2"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-14" xlink:title="JLS&#45;14: The SHA value\nof the nlohmann/json\nlibrary in use within\neclipse&#45;score/inc_nlohmann_json\ncoincides with the SHA\nvalue provided by Niels\nLohmann for that version.\n" target="_top">
+<g id="a_node2"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-14" xlink:title="JLS&#45;14: The SHA value\nof the nlohmann/json\nlibrary in use within\neclipse&#45;score/inc_nlohmann_json\ncoincides with the SHA\nvalue provided by Niels\nLohmann for that version.\n" target="_top">
 <polygon fill="none" stroke="black" points="243,-113 0,-113 0,0 243,0 243,-113"/>
 <text text-anchor="middle" x="121.5" y="-97.8" font-family="Open Sans" font-size="14.00">JLS&#45;14: The SHA value</text>
 <text text-anchor="middle" x="121.5" y="-82.8" font-family="Open Sans" font-size="14.00">of the nlohmann/json</text>
@@ -60,7 +60,7 @@
 <!-- JLS&#45;21 -->
 <g id="node3" class="node">
 <title>JLS&#45;21</title>
-<g id="a_node3"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-21" xlink:title="JLS&#45;21: A score is calculated\nbased on the number of\nmirrored and unmirrored\nthings. (TODO) " target="_top">
+<g id="a_node3"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-21" xlink:title="JLS&#45;21: A score is calculated\nbased on the number of\nmirrored and unmirrored\nthings. (TODO) " target="_top">
 <polygon fill="none" stroke="black" points="473.5,-90.5 261.5,-90.5 261.5,-22.5 473.5,-22.5 473.5,-90.5"/>
 <text text-anchor="middle" x="367.5" y="-75.3" font-family="Open Sans" font-size="14.00">JLS&#45;21: A score is calculated</text>
 <text text-anchor="middle" x="367.5" y="-60.3" font-family="Open Sans" font-size="14.00">based on the number of</text>
@@ -72,7 +72,7 @@
 <!-- TA&#45;RELEASES -->
 <g id="node4" class="node">
 <title>TA&#45;RELEASES</title>
-<g id="a_node4"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TA-RELEASES_graph.svg" xlink:title="TA&#45;RELEASES: Construction\nof releases for the nlohmann/json\nlibrary is fully repeatable\nand the results are fully\nreproducible, with any\nexceptions documented\nand justified. " target="_top">
+<g id="a_node4"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TA-RELEASES_graph.svg" xlink:title="TA&#45;RELEASES: Construction\nof releases for the nlohmann/json\nlibrary is fully repeatable\nand the results are fully\nreproducible, with any\nexceptions documented\nand justified. " target="_top">
 <polygon fill="none" stroke="black" points="369.5,-370 119.5,-370 119.5,-257 369.5,-257 369.5,-370"/>
 <text text-anchor="middle" x="244.5" y="-354.8" font-family="Open Sans" font-size="14.00">TA&#45;RELEASES: Construction</text>
 <text text-anchor="middle" x="244.5" y="-339.8" font-family="Open Sans" font-size="14.00">of releases for the nlohmann/json</text>

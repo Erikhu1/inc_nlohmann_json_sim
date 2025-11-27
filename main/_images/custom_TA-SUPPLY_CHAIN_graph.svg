@@ -12,7 +12,7 @@
 <!-- TRUSTABLE&#45;SOFTWARE -->
 <g id="node1" class="node">
 <title>TRUSTABLE&#45;SOFTWARE</title>
-<g id="a_node1"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
+<g id="a_node1"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
 <polygon fill="none" stroke="black" points="248,-749 0,-749 0,-666 248,-666 248,-749"/>
 <text text-anchor="middle" x="124" y="-733.8" font-family="Open Sans" font-size="14.00">TRUSTABLE&#45;SOFTWARE: This</text>
 <text text-anchor="middle" x="124" y="-718.8" font-family="Open Sans" font-size="14.00">release of JSON&#45;Library</text>
@@ -25,7 +25,7 @@
 <!-- TT&#45;PROVENANCE -->
 <g id="node4" class="node">
 <title>TT&#45;PROVENANCE</title>
-<g id="a_node4"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TT-PROVENANCE_graph.svg" xlink:title="TT&#45;PROVENANCE: All inputs\n(and attestations for\nclaims) for the nlohmann/json\nlibrary are provided\nwith known provenance.\n" target="_top">
+<g id="a_node4"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TT-PROVENANCE_graph.svg" xlink:title="TT&#45;PROVENANCE: All inputs\n(and attestations for\nclaims) for the nlohmann/json\nlibrary are provided\nwith known provenance.\n" target="_top">
 <polygon fill="none" stroke="black" points="236,-522 12,-522 12,-439 236,-439 236,-522"/>
 <text text-anchor="middle" x="124" y="-506.8" font-family="Open Sans" font-size="14.00">TT&#45;PROVENANCE: All inputs</text>
 <text text-anchor="middle" x="124" y="-491.8" font-family="Open Sans" font-size="14.00">(and attestations for</text>
@@ -44,7 +44,7 @@
 <!-- JLS&#45;23 -->
 <g id="node2" class="node">
 <title>JLS&#45;23</title>
-<g id="a_node2"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-23" xlink:title="JLS&#45;23: The Eclipse S&#45;CORE\norganization mirrors\nthe nlohmann/json project\nin a github fork. " target="_top">
+<g id="a_node2"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-23" xlink:title="JLS&#45;23: The Eclipse S&#45;CORE\norganization mirrors\nthe nlohmann/json project\nin a github fork. " target="_top">
 <polygon fill="none" stroke="black" points="227.5,-68 20.5,-68 20.5,0 227.5,0 227.5,-68"/>
 <text text-anchor="middle" x="124" y="-52.8" font-family="Open Sans" font-size="14.00">JLS&#45;23: The Eclipse S&#45;CORE</text>
 <text text-anchor="middle" x="124" y="-37.8" font-family="Open Sans" font-size="14.00">organization mirrors</text>
@@ -56,7 +56,7 @@
 <!-- TA&#45;SUPPLY_CHAIN -->
 <g id="node3" class="node">
 <title>TA&#45;SUPPLY_CHAIN</title>
-<g id="a_node3"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TA-SUPPLY_CHAIN_graph.svg" xlink:title="TA&#45;SUPPLY_CHAIN: All\nsources and tools for\nthe nlohmann/json library\nare mirrored in our controlled\nenvironment. " target="_top">
+<g id="a_node3"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TA-SUPPLY_CHAIN_graph.svg" xlink:title="TA&#45;SUPPLY_CHAIN: All\nsources and tools for\nthe nlohmann/json library\nare mirrored in our controlled\nenvironment. " target="_top">
 <polygon fill="none" stroke="black" points="233.5,-295 14.5,-295 14.5,-212 233.5,-212 233.5,-295"/>
 <text text-anchor="middle" x="124" y="-279.8" font-family="Open Sans" font-size="14.00">TA&#45;SUPPLY_CHAIN: All</text>
 <text text-anchor="middle" x="124" y="-264.8" font-family="Open Sans" font-size="14.00">sources and tools for</text>

@@ -12,7 +12,7 @@
 <!-- TRUSTABLE&#45;SOFTWARE -->
 <g id="node1" class="node">
 <title>TRUSTABLE&#45;SOFTWARE</title>
-<g id="a_node1"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
+<g id="a_node1"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
 <polygon fill="none" stroke="black" points="248,-809 0,-809 0,-726 248,-726 248,-809"/>
 <text text-anchor="middle" x="124" y="-793.8" font-family="Open Sans" font-size="14.00">TRUSTABLE&#45;SOFTWARE: This</text>
 <text text-anchor="middle" x="124" y="-778.8" font-family="Open Sans" font-size="14.00">release of JSON&#45;Library</text>
@@ -25,7 +25,7 @@
 <!-- TT&#45;PROVENANCE -->
 <g id="node4" class="node">
 <title>TT&#45;PROVENANCE</title>
-<g id="a_node4"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TT-PROVENANCE_graph.svg" xlink:title="TT&#45;PROVENANCE: All inputs\n(and attestations for\nclaims) for the nlohmann/json\nlibrary are provided\nwith known provenance.\n" target="_top">
+<g id="a_node4"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TT-PROVENANCE_graph.svg" xlink:title="TT&#45;PROVENANCE: All inputs\n(and attestations for\nclaims) for the nlohmann/json\nlibrary are provided\nwith known provenance.\n" target="_top">
 <polygon fill="none" stroke="black" points="236,-582 12,-582 12,-499 236,-499 236,-582"/>
 <text text-anchor="middle" x="124" y="-566.8" font-family="Open Sans" font-size="14.00">TT&#45;PROVENANCE: All inputs</text>
 <text text-anchor="middle" x="124" y="-551.8" font-family="Open Sans" font-size="14.00">(and attestations for</text>
@@ -44,7 +44,7 @@
 <!-- JLS&#45;04 -->
 <g id="node2" class="node">
 <title>JLS&#45;04</title>
-<g id="a_node2"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-04" xlink:title="JLS&#45;04: External dependencies\nwithin nlohmann/json\nare checked for potential\nsecurity vulnerabilities\nwith each pull request\nto main. Merging is blocked\nuntil all warnings are\nresolved. " target="_top">
+<g id="a_node2"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-04" xlink:title="JLS&#45;04: External dependencies\nwithin nlohmann/json\nare checked for potential\nsecurity vulnerabilities\nwith each pull request\nto main. Merging is blocked\nuntil all warnings are\nresolved. " target="_top">
 <polygon fill="none" stroke="black" points="238,-128 10,-128 10,0 238,0 238,-128"/>
 <text text-anchor="middle" x="124" y="-112.8" font-family="Open Sans" font-size="14.00">JLS&#45;04: External dependencies</text>
 <text text-anchor="middle" x="124" y="-97.8" font-family="Open Sans" font-size="14.00">within nlohmann/json</text>
@@ -60,7 +60,7 @@
 <!-- TA&#45;INPUTS -->
 <g id="node3" class="node">
 <title>TA&#45;INPUTS</title>
-<g id="a_node3"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TA-INPUTS_graph.svg" xlink:title="TA&#45;INPUTS: All inputs\nto the nlohmann/json\nlibrary are assessed,\nto identify potential\nrisks and issues. " target="_top">
+<g id="a_node3"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TA-INPUTS_graph.svg" xlink:title="TA&#45;INPUTS: All inputs\nto the nlohmann/json\nlibrary are assessed,\nto identify potential\nrisks and issues. " target="_top">
 <polygon fill="none" stroke="black" points="206,-355 42,-355 42,-272 206,-272 206,-355"/>
 <text text-anchor="middle" x="124" y="-339.8" font-family="Open Sans" font-size="14.00">TA&#45;INPUTS: All inputs</text>
 <text text-anchor="middle" x="124" y="-324.8" font-family="Open Sans" font-size="14.00">to the nlohmann/json</text>

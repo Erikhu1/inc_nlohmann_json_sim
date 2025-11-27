@@ -12,7 +12,7 @@
 <!-- TRUSTABLE&#45;SOFTWARE -->
 <g id="node1" class="node">
 <title>TRUSTABLE&#45;SOFTWARE</title>
-<g id="a_node1"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
+<g id="a_node1"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TRUSTABLE-SOFTWARE_graph.svg" xlink:title="TRUSTABLE&#45;SOFTWARE: This\nrelease of JSON&#45;Library\nalso referred in the\ndocumentation as nlohmann/json\nlibrary is Trustable.\n" target="_top">
 <polygon fill="none" stroke="black" points="957.5,-854 709.5,-854 709.5,-771 957.5,-771 957.5,-854"/>
 <text text-anchor="middle" x="833.5" y="-838.8" font-family="Open Sans" font-size="14.00">TRUSTABLE&#45;SOFTWARE: This</text>
 <text text-anchor="middle" x="833.5" y="-823.8" font-family="Open Sans" font-size="14.00">release of JSON&#45;Library</text>
@@ -25,7 +25,7 @@
 <!-- TT&#45;EXPECTATIONS -->
 <g id="node7" class="node">
 <title>TT&#45;EXPECTATIONS</title>
-<g id="a_node7"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TT-EXPECTATIONS_graph.svg" xlink:title="TT&#45;EXPECTATIONS: Documentation\nis provided within eclipse&#45;score/inc_nlohmann_json,\nspecifying what the nlohmann/json\nlibrary is expected to\ndo, and what it must\nnot do, and how this\nis verified. " target="_top">
+<g id="a_node7"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TT-EXPECTATIONS_graph.svg" xlink:title="TT&#45;EXPECTATIONS: Documentation\nis provided within eclipse&#45;score/inc_nlohmann_json,\nspecifying what the nlohmann/json\nlibrary is expected to\ndo, and what it must\nnot do, and how this\nis verified. " target="_top">
 <polygon fill="none" stroke="black" points="1021,-627 646,-627 646,-514 1021,-514 1021,-627"/>
 <text text-anchor="middle" x="833.5" y="-611.8" font-family="Open Sans" font-size="14.00">TT&#45;EXPECTATIONS: Documentation</text>
 <text text-anchor="middle" x="833.5" y="-596.8" font-family="Open Sans" font-size="14.00">is provided within eclipse&#45;score/inc_nlohmann_json,</text>
@@ -46,7 +46,7 @@
 <!-- JLS&#45;02 -->
 <g id="node2" class="node">
 <title>JLS&#45;02</title>
-<g id="a_node2"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-02" xlink:title="JLS&#45;02: Fuzz testing\nis used in the original\nnlohmann/json repository\n(https://github.com/nlohmann/json)\nto uncover edge cases\nand failure modes throughout\ndevelopment. (https://github.com/nlohmann/json/blob/develop/tests/fuzzing.md)\n" target="_top">
+<g id="a_node2"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-02" xlink:title="JLS&#45;02: Fuzz testing\nis used in the original\nnlohmann/json repository\n(https://github.com/nlohmann/json)\nto uncover edge cases\nand failure modes throughout\ndevelopment. (https://github.com/nlohmann/json/blob/develop/tests/fuzzing.md)\n" target="_top">
 <polygon fill="none" stroke="black" points="577,-113 0,-113 0,0 577,0 577,-113"/>
 <text text-anchor="middle" x="288.5" y="-97.8" font-family="Open Sans" font-size="14.00">JLS&#45;02: Fuzz testing</text>
 <text text-anchor="middle" x="288.5" y="-82.8" font-family="Open Sans" font-size="14.00">is used in the original</text>
@@ -61,7 +61,7 @@
 <!-- JLS&#45;24 -->
 <g id="node3" class="node">
 <title>JLS&#45;24</title>
-<g id="a_node3"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_JLS-24_graph.svg" xlink:title="JLS&#45;24: The nlohmann/json\nlibrary recognizes malformed\nJSON and returns an exception.\n" target="_top">
+<g id="a_node3"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_JLS-24_graph.svg" xlink:title="JLS&#45;24: The nlohmann/json\nlibrary recognizes malformed\nJSON and returns an exception.\n" target="_top">
 <polygon fill="none" stroke="black" points="830,-83 595,-83 595,-30 830,-30 830,-83"/>
 <text text-anchor="middle" x="712.5" y="-67.8" font-family="Open Sans" font-size="14.00">JLS&#45;24: The nlohmann/json</text>
 <text text-anchor="middle" x="712.5" y="-52.8" font-family="Open Sans" font-size="14.00">library recognizes malformed</text>
@@ -72,7 +72,7 @@
 <!-- JLS&#45;25 -->
 <g id="node4" class="node">
 <title>JLS&#45;25</title>
-<g id="a_node4"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-25" xlink:title="JLS&#45;25: Malicious code\nchanges in nlohmann/json\nare mitigated by code\nreviews, adhering to\nthe contribution guidelines\nand security policy specified\nby nlohmann/json. " target="_top">
+<g id="a_node4"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-25" xlink:title="JLS&#45;25: Malicious code\nchanges in nlohmann/json\nare mitigated by code\nreviews, adhering to\nthe contribution guidelines\nand security policy specified\nby nlohmann/json. " target="_top">
 <polygon fill="none" stroke="black" points="1063,-113 848,-113 848,0 1063,0 1063,-113"/>
 <text text-anchor="middle" x="955.5" y="-97.8" font-family="Open Sans" font-size="14.00">JLS&#45;25: Malicious code</text>
 <text text-anchor="middle" x="955.5" y="-82.8" font-family="Open Sans" font-size="14.00">changes in nlohmann/json</text>
@@ -87,7 +87,7 @@
 <!-- JLS&#45;31 -->
 <g id="node5" class="node">
 <title>JLS&#45;31</title>
-<g id="a_node5"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/generated/JLS.html#jls-31" xlink:title="JLS&#45;31: The nlohmann/json\nrepository uses a static\ncode analysis tool. " target="_top">
+<g id="a_node5"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/generated/JLS.html#jls-31" xlink:title="JLS&#45;31: The nlohmann/json\nrepository uses a static\ncode analysis tool. " target="_top">
 <polygon fill="none" stroke="black" points="1284,-83 1081,-83 1081,-30 1284,-30 1284,-83"/>
 <text text-anchor="middle" x="1182.5" y="-67.8" font-family="Open Sans" font-size="14.00">JLS&#45;31: The nlohmann/json</text>
 <text text-anchor="middle" x="1182.5" y="-52.8" font-family="Open Sans" font-size="14.00">repository uses a static</text>
@@ -98,7 +98,7 @@
 <!-- TA&#45;MISBEHAVIOURS -->
 <g id="node6" class="node">
 <title>TA&#45;MISBEHAVIOURS</title>
-<g id="a_node6"><a xlink:href="https://score-json.github.io/inc_nlohmann_json/main/_images/custom_TA-MISBEHAVIOURS_graph.svg" xlink:title="TA&#45;MISBEHAVIOURS: Prohibited\nmisbehaviours for the\nnlohmann/json library\nare identified, and mitigations\nare specified, verified\nand validated based on\nanalysis. " target="_top">
+<g id="a_node6"><a xlink:href="https://Erikhu1.github.io/inc_nlohmann_json_sim/main/_images/custom_TA-MISBEHAVIOURS_graph.svg" xlink:title="TA&#45;MISBEHAVIOURS: Prohibited\nmisbehaviours for the\nnlohmann/json library\nare identified, and mitigations\nare specified, verified\nand validated based on\nanalysis. " target="_top">
 <polygon fill="none" stroke="black" points="951.5,-370 715.5,-370 715.5,-257 951.5,-257 951.5,-370"/>
 <text text-anchor="middle" x="833.5" y="-354.8" font-family="Open Sans" font-size="14.00">TA&#45;MISBEHAVIOURS: Prohibited</text>
 <text text-anchor="middle" x="833.5" y="-339.8" font-family="Open Sans" font-size="14.00">misbehaviours for the</text>
