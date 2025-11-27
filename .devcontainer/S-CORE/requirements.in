@@ -1,5 +1,5 @@
 pip==25.3
-setuptools==78.1.0
+setuptools==78.1.1
 sphinx==8.2.3
 sphinx-design==0.6.1
 sphinx-needs==5.1.0
