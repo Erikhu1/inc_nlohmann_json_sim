@@ -8,7 +8,7 @@ The distribution of scores for evidence nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |182|
+|0.0-0.1  |194|
 |0.1-0.2  |0|
 |0.2-0.3  |0|
 |0.3-0.4  |0|
@@ -27,7 +27,7 @@ The distribution of scores for expectations nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |1|
+|0.0-0.1  |2|
 |0.1-0.2  |0|
 |0.2-0.3  |0|
 |0.3-0.4  |0|
@@ -46,7 +46,7 @@ The distribution of scores for all nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |239|
+|0.0-0.1  |253|
 |0.1-0.2  |0|
 |0.2-0.3  |0|
 |0.3-0.4  |0|
@@ -89,7 +89,7 @@ The distribution of scores for all nodes across the graph.
 |0.6-0.7  |0|
 |0.7-0.8  |1|
 |0.8-0.9  |2|
-|0.9-1.0  |124|
+|0.9-1.0  |127|
 ## Mishu-Dev SME Score Distribution
 
 ![No Image](figs/mishu-dev_hist.svg)
@@ -112,10 +112,10 @@ The distribution of scores for all nodes across the graph.
 
 | Category | Count |
 |----------|-------|
-|statements|259|
-|reviewed statements|0|
-|unreviewed statements|259|
+|statements|273|
+|reviewed statements|1|
+|unreviewed statements|272|
 |orphaned statements|0|
-|statements with evidence|44|
-|evidence|182|
-|expectations|1|
+|statements with evidence|46|
+|evidence|194|
+|expectations|2|
