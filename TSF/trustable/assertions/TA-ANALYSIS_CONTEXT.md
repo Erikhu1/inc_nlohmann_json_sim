@@ -43,9 +43,9 @@ by confirming that test results remain unchanged when no changes are intended.
 **Evidence**
 
 - Analysis of test data, including thresholds in relation to appropriate statistical properties.
-  - **Answer**: The analysis of test data includes CI failure-rate/trend analysis (JLS-17), quantitative CI thresholds such as the lcov coverage gate (see JLS-54), and checking that expectations are supported by tests via Trustable traceability (supporting statements under JLEX-01/02 reference CI tests and are validated by SME reviewers during scoring).
+  - **Answer**: The analysis of test data includes CI failure-rate/trend analysis (JLS-17), quantitative CI thresholds such as the lcov coverage gate (see JLS-54), and checking that expectations are supported by tests via Trustable traceability (supporting statements under JLEX-01/02 reference CI tests and are validated by SME reviewers during scoring, see JLS-74). In addition, CI runs include automated static analysis and sanitizers, which provide further evidence by detecting issues (see, JLS-75).
 - Analysis of failures
-  - **Answer**: Provided by JLS-26 and JLS-17.
+  - **Answer**: Provided by JLS-26, JLS-17 and JLS-75.
 - Analysis of spikes and trends
   - **Answer**: CI test failure rates for the upstream `nlohmann/json` repository and `eclipse-score/inc_nlohmann_json` are analysed using the time-series based GitHub Actions metrics views. This analysis is performed manually (see JLS-17). There is currently no fully automated, continuous analysis of failures.
 - Validation of analysis methods used

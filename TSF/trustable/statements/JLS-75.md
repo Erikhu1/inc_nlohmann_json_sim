@@ -7,7 +7,7 @@ references:
     description: "Quality-assurance overview that lists the static analysis tools (e.g., clang-tidy / Clang Static Analyzer) and dynamic analysis tools (e.g., Valgrind / Clang Sanitizers) and states that violations fail the build."
   - type: project_website
     url: "https://github.com/nlohmann/json/actions"
-    description: "Public GitHub Actions run history showing the outcomes of CI jobs over time including the logs for the static code analysis tools"
+    description: "Public GitHub Actions run history showing the outcomes of CI jobs over time including the logs for the static code analysis tools."
   - type: website
     url: "https://app.codacy.com/gh/nlohmann/json/dashboard"
     description: "Codacy dashboard for nlohmann/json"
