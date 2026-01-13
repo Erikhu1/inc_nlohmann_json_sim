@@ -346,6 +346,6 @@ This presents the compliance for _Well Formed JSON_ (WFJ) in tabular form.
 _Generated for: Software_
 
 * _Repository root: /home/runner/work/inc_nlohmann_json_sim/inc_nlohmann_json_sim_
-* _Commit SHA: 649d7c811cea1afc06e904bf3f8af0e10cc1c054_
-* _Commit date/time: 2025-12-09 08:23:25 UTC_
-* _Commit tag: 649d7c8_
+* _Commit SHA: 1a4dc397f633ee550b3380256747b3917a3cecba_
+* _Commit date/time: 2026-01-13 12:23:45 UTC_
+* _Commit tag: 1a4dc39_
