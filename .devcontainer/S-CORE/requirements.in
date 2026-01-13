@@ -1,9 +1,0 @@
-pip==25.3
-setuptools==75.8.0
-sphinx==8.2.3
-sphinx-design==0.6.1
-sphinx-needs==5.1.0
-sphinxcontrib.plantuml==0.31
-pytest==8.4.1
-pyyaml==6.0.3
-pip-tools==7.5.2
