@@ -126,7 +126,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          DB_DIR="TSF"
+          DB_DIR="TSF/data_storage"
           DB_PREFIX="TrustableScoring"
           LIMIT_BYTES=$((90 * 1024 * 1024))  # 90 MiB
           today=$(date -u +%F)
@@ -185,7 +185,7 @@ jobs:
 
       - name: Checkout data storage branch
         run: |
-          git stash push --include-untracked -- $(git status --porcelain | awk '{print $2}' | grep -vE '^TSF/TrustableScoring.*\.db$)
+          git stash push --include-untracked -- $(git status --porcelain | awk '{print $2}' | grep -vE '^TSF/data_storage/TrustableScoring.*\.db$)
           git checkout save_historical_data
           git pull
 
