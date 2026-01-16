@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 # global variable -- path to persistent data storage
-persistent_storage = "TSF/TrustableScoring.db"
+persistent_storage = os.getenv("TSF_SCORING_DB", "TSF/TrustableScoring.db")
 
 def data_store_pull() -> list[dict]:
     data = get_my_data()
