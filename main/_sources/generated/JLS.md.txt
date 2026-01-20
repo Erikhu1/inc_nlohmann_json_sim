@@ -47,7 +47,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -123,7 +124,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -171,13 +173,14 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
 ---
 
-### JLS-04 | Reviewed: ⨯ | Score: 0.0 
+### JLS-04 | Reviewed: ✔ | Score: 1.0 
 External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved.
 
 
@@ -185,8 +188,8 @@ External dependencies within nlohmann/json are checked for potential security vu
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -277,13 +280,14 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|1.00 |
+|2026-01-20 10:12:02.554467|1.00 |
 
 
 
 ---
 
-### JLS-05 | Reviewed: ⨯ | Score: 0.0 
+### JLS-05 | Reviewed: ✔ | Score: 1.0 
 The nlohmann/json library is widely used and actively maintained; bugs and misbehaviours are tracked publicly and transparently.
 
 
@@ -291,7 +295,7 @@ The nlohmann/json library is widely used and actively maintained; bugs and misbe
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -380,7 +384,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|1.00 |
+|2026-01-20 10:12:02.554467|1.00 |
 
 
 
@@ -389,12 +394,14 @@ _None_
 ### JLS-06 | Reviewed: ⨯ | Score: 0.0 
 Pull requests in the nlohmann/json repository are merged only after code review.
 
+aschemmel-tech: taken over score from "OpenSSF Scorecard Report"
+
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -434,21 +441,24 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
 ---
 
-### JLS-07 | Reviewed: ⨯ | Score: 0.0 
+### JLS-07 | Reviewed: ✔ | Score: 1.0 
 The develop branch of nlohmann/json is protected, i.e. no direct commits are possible.
+
+aschemmel-tech: no other pushes as from nlohman are observable
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -488,7 +498,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|1.00 |
+|2026-01-20 10:12:02.554467|1.00 |
 
 
 
@@ -556,7 +567,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -610,7 +622,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -665,7 +678,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -674,12 +688,14 @@ _None_
 ### JLS-11 | Reviewed: ⨯ | Score: 0.0 
 Outstanding bugs or misbehaviours are analyzed within eclipse-score/inc_nlohmann_json to determine whether they are relevant for S-CORE's use cases of the nlohmann/json library.
 
+aschemmel-tech: most but not all issues are analyzed for impact on S-CORE.
+
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -689,13 +705,7 @@ _None_
 
 **References:**
 
-- `website: https://github.com/eclipse-score/inc_nlohmann_json/blob/save_historical_data/TSF/misbehaviours.md`
-
-
-`https://github.com/eclipse-score/inc_nlohmann_json/blob/save_historical_data/TSF/misbehaviours.md`
-	- List of outstanding bugs as well as fixes for developed code that are outstanding, not yet applied.
-
-
+_None_
 
 
 
@@ -719,21 +729,24 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
 ---
 
-### JLS-12 | Reviewed: ⨯ | Score: 0.0 
+### JLS-12 | Reviewed: ✔ | Score: 1.0 
 The nlohmann/json repository has well-defined community standards, including a contribution guideline and a security policy.
+
+aschemmel-tech: all community standard are covered.
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -773,7 +786,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|1.00 |
+|2026-01-20 10:12:02.554467|1.00 |
 
 
 
@@ -841,7 +855,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -855,7 +870,7 @@ The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohm
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
@@ -871,6 +886,109 @@ _None_
 
 `https://github.com/nlohmann/json/tree/v3.12.0`
 	- release site of nlohmann/json containing the sha values
+
+
+- `.github/workflows/check_amalgamation.yml`
+
+
+````yaml
+name: "Check amalgamation"
+
+on:
+  workflow_call:
+    inputs:
+      artifact_id:
+        description: 'Unique identifier for artifacts'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
+        with:
+          egress-policy: audit
+
+      - name: Save PR number
+        run: |
+          mkdir -p ./pr
+          echo ${{ github.event.number }} &gt; ./pr/number
+          echo ${{ github.event.pull_request.user.login }} &gt; ./pr/author
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: pr
+          path: pr/
+
+  check:
+    runs-on: ubuntu-latest
+    env:
+      MAIN_DIR: ${{ github.workspace }}/main
+      INCLUDE_DIR: ${{ github.workspace }}/main/single_include/nlohmann
+      TOOL_DIR: ${{ github.workspace }}/tools/tools/amalgamate
+
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout pull request
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          path: main
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Checkout tools
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          path: tools
+          ref: main
+
+      - name: Install astyle
+        run: |
+          python3 -mvenv venv
+          venv/bin/pip3 install -r $MAIN_DIR/tools/astyle/requirements.txt
+
+      - name: Check amalgamation
+        run: |
+          cd $MAIN_DIR
+
+          rm -fr $INCLUDE_DIR/json.hpp~ $INCLUDE_DIR/json_fwd.hpp~
+          cp $INCLUDE_DIR/json.hpp $INCLUDE_DIR/json.hpp~
+          cp $INCLUDE_DIR/json_fwd.hpp $INCLUDE_DIR/json_fwd.hpp~
+
+          python3 $TOOL_DIR/amalgamate.py -c $TOOL_DIR/config_json.json -s .
+          python3 $TOOL_DIR/amalgamate.py -c $TOOL_DIR/config_json_fwd.json -s .
+          echo "Format (1)"
+          ${{ github.workspace }}/venv/bin/astyle --project=tools/astyle/.astylerc --suffix=none --quiet $INCLUDE_DIR/json.hpp $INCLUDE_DIR/json_fwd.hpp
+
+          diff $INCLUDE_DIR/json.hpp~ $INCLUDE_DIR/json.hpp
+          diff $INCLUDE_DIR/json_fwd.hpp~ $INCLUDE_DIR/json_fwd.hpp
+
+          ${{ github.workspace }}/venv/bin/astyle --project=tools/astyle/.astylerc --suffix=orig $(find docs/examples include tests -type f \( -name '*.hpp' -o -name '*.cpp' -o -name '*.cu' \) -not -path 'tests/thirdparty/*' -not -path 'tests/abi/include/nlohmann/*' | sort)
+          echo Check
+          find $MAIN_DIR -name '*.orig' -exec false {} \+
+
+      - name: Generate amalgamation artifact
+        run: |
+          echo "Generating amalgamation artifact..."
+          mkdir -p check_amalgamation
+          echo "Amalgamation processed for ${{ inputs.artifact_id }}" &gt; check_amalgamation/check_amalgamation.txt
+
+      - name: Upload amalgamation artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ${{ inputs.artifact_id }}
+          path: check_amalgamation/
+````
+- Description: Lines 68-77 checks that the amalgamate.py script always produces the same output with the same inputs, by comparing the single-include header file in the PR with a re-generated one inside the workflow run.
+
+
 
 
 
@@ -896,7 +1014,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -8458,13 +8577,6 @@ All tests in this file were run in the following configurations:
 ````
 
 
-- `website: https://github.com/eclipse-score/inc_nlohmann_json/actions`
-
-
-`https://github.com/eclipse-score/inc_nlohmann_json/actions`
-	- Github actions page showing that eclipse-score/inc_nlohmann_json is using Github host environment.
-
-
 
 
 
@@ -8488,7 +8600,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -8659,7 +8772,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -9637,7 +9751,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -9713,7 +9828,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -9755,7 +9871,32 @@ permissions:
   contents: read
 
 jobs:
+  labeler:
+    permissions:
+      contents: read
+      pages: write
+      pull-requests: write
+    name: Run Labeler Workflow
+    uses: ./.github/workflows/labeler.yml
+    with:
+      artifact_id: "labeler-${{ github.sha }}"
 
+  SME_review_checker:
+    permissions:
+      contents: read
+      pull-requests: read
+    name: Run SME_review_checker Workflow
+    if: ${{ github.event_name == 'pull_request' }} # only run SME_review_checker for PRs
+    uses: ./.github/workflows/SME_review_checker.yml
+    with:
+      artifact_id: "SME_review_checker-${{ github.sha }}"
+
+  check_amalgamation:
+    name: Run Amalgamation Workflow
+    if: ${{ github.event_name == 'pull_request' }} # only run check_amalgamation for PRs
+    uses: ./.github/workflows/check_amalgamation.yml
+    with:
+      artifact_id: "check_amalgamation-${{ github.sha }}"
       
   test_trudag_extensions:
     name: Run Test Trudag Extensions Workflow
@@ -9763,14 +9904,39 @@ jobs:
     with:
       artifact_id: "test_trudag_extensions-${{ github.sha }}"
 
+  codeql:
+    permissions:
+      contents: read
+      security-events: write
+    name: Run Codeql analysis Workflow
+    uses: ./.github/workflows/codeql-analysis.yml
+    with:
+      artifact_id: "codeql-${{ github.sha }}"
+
+  ubuntu:
+    name: Run Ubuntu Workflow
+    permissions:
+      contents: write
+    needs: [codeql] # Error if CodeQL and Ubuntu triggered at the same time due to conflicting priorities
+    uses: ./.github/workflows/ubuntu.yml
+    with:
+      artifact_id: "ubuntu-${{ github.sha }}"
+
+  dependency_review:
+    name: Run dependency_review Workflow
+    if: ${{ github.event_name == 'pull_request' }}  # only run dependency_review for PRs
+    uses: ./.github/workflows/dependency-review.yml
+    with:
+      artifact_id: "dependency_review-${{ github.sha }}"
+
   collect_artifacts_pr:
     name: "Collect Results & Deploy (PR)"
     if: github.event_name == 'pull_request'
-    needs: [test_trudag_extensions]
+    needs: [labeler, SME_review_checker, check_amalgamation, test_trudag_extensions, dependency_review, codeql, ubuntu]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [ test_trudag_extensions]
+        target: [labeler, SME_review_checker, check_amalgamation, test_trudag_extensions, dependency_review, codeql, ubuntu]
 
     steps:
       - name: Checkout code
@@ -9799,11 +9965,11 @@ jobs:
   collect_artifacts_non_pr:
     name: "Collect Results & Deploy (Non-PR)"
     if: github.event_name != 'pull_request'
-    needs: [ test_trudag_extensions]  # no check_amalgamation, dependency_review or SME_review_checker if non PR
+    needs: [labeler, test_trudag_extensions, codeql, ubuntu]  # no check_amalgamation, dependency_review or SME_review_checker if non PR
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [ test_trudag_extensions]
+        target: [labeler, test_trudag_extensions, codeql, ubuntu]
 
     steps:
       - name: Checkout code
@@ -9906,11 +10072,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
+      - name: Load ubuntu-artifact
+        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
+        with:
+          name: ${{ inputs.artifact_id }}
+          path: artifacts/
+
       - name: Set up Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: '3.11.2'
-  
+
       # trudag version v2025.10.22
       - name: Install trudag and dependencies
         run: |
@@ -10079,7 +10251,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -10121,7 +10294,32 @@ permissions:
   contents: read
 
 jobs:
+  labeler:
+    permissions:
+      contents: read
+      pages: write
+      pull-requests: write
+    name: Run Labeler Workflow
+    uses: ./.github/workflows/labeler.yml
+    with:
+      artifact_id: "labeler-${{ github.sha }}"
 
+  SME_review_checker:
+    permissions:
+      contents: read
+      pull-requests: read
+    name: Run SME_review_checker Workflow
+    if: ${{ github.event_name == 'pull_request' }} # only run SME_review_checker for PRs
+    uses: ./.github/workflows/SME_review_checker.yml
+    with:
+      artifact_id: "SME_review_checker-${{ github.sha }}"
+
+  check_amalgamation:
+    name: Run Amalgamation Workflow
+    if: ${{ github.event_name == 'pull_request' }} # only run check_amalgamation for PRs
+    uses: ./.github/workflows/check_amalgamation.yml
+    with:
+      artifact_id: "check_amalgamation-${{ github.sha }}"
       
   test_trudag_extensions:
     name: Run Test Trudag Extensions Workflow
@@ -10129,14 +10327,39 @@ jobs:
     with:
       artifact_id: "test_trudag_extensions-${{ github.sha }}"
 
+  codeql:
+    permissions:
+      contents: read
+      security-events: write
+    name: Run Codeql analysis Workflow
+    uses: ./.github/workflows/codeql-analysis.yml
+    with:
+      artifact_id: "codeql-${{ github.sha }}"
+
+  ubuntu:
+    name: Run Ubuntu Workflow
+    permissions:
+      contents: write
+    needs: [codeql] # Error if CodeQL and Ubuntu triggered at the same time due to conflicting priorities
+    uses: ./.github/workflows/ubuntu.yml
+    with:
+      artifact_id: "ubuntu-${{ github.sha }}"
+
+  dependency_review:
+    name: Run dependency_review Workflow
+    if: ${{ github.event_name == 'pull_request' }}  # only run dependency_review for PRs
+    uses: ./.github/workflows/dependency-review.yml
+    with:
+      artifact_id: "dependency_review-${{ github.sha }}"
+
   collect_artifacts_pr:
     name: "Collect Results & Deploy (PR)"
     if: github.event_name == 'pull_request'
-    needs: [test_trudag_extensions]
+    needs: [labeler, SME_review_checker, check_amalgamation, test_trudag_extensions, dependency_review, codeql, ubuntu]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [ test_trudag_extensions]
+        target: [labeler, SME_review_checker, check_amalgamation, test_trudag_extensions, dependency_review, codeql, ubuntu]
 
     steps:
       - name: Checkout code
@@ -10165,11 +10388,11 @@ jobs:
   collect_artifacts_non_pr:
     name: "Collect Results & Deploy (Non-PR)"
     if: github.event_name != 'pull_request'
-    needs: [ test_trudag_extensions]  # no check_amalgamation, dependency_review or SME_review_checker if non PR
+    needs: [labeler, test_trudag_extensions, codeql, ubuntu]  # no check_amalgamation, dependency_review or SME_review_checker if non PR
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [ test_trudag_extensions]
+        target: [labeler, test_trudag_extensions, codeql, ubuntu]
 
     steps:
       - name: Checkout code
@@ -11186,7 +11409,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11200,7 +11424,7 @@ The Eclipse S-CORE organization mirrors the nlohmann/json project in a github fo
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.18 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11247,7 +11471,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11303,7 +11528,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2025-12-09 08:23:25|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-01-13 12:23:45|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-01-13 12:27:30.608761|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-01-20 09:05:12|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-01-20 10:12:02.554467|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
@@ -11364,7 +11590,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11423,7 +11650,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11471,21 +11699,24 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
 ---
 
-### JLS-28 | Reviewed: ⨯ | Score: 0.0 
+### JLS-28 | Reviewed: ✔ | Score: 0.0 
 Outstanding bugs and misbehaviours are triaged in the nlohmann/json repository.
+
+aschemmel-tech: no triage done
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11525,7 +11756,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11534,12 +11766,14 @@ _None_
 ### JLS-29 | Reviewed: ⨯ | Score: 0.0 
 Known bugs, misbehaviours and CVEs are analyzed and either fixed or mitigated in the nlohmann/json repository.
 
+aschemmel-tech: evidences support bugs and CVE fixing, no mitigation actions are offered.
+
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11586,7 +11820,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11595,12 +11830,14 @@ _None_
 ### JLS-30 | Reviewed: ⨯ | Score: 0.0 
 Outstanding CVEs are analyzed within eclipse-score/inc_nlohmann_json to determine whether they can be dismissed, and/or are relevant for S-CORE's use cases of the nlohmann/json library.
 
+aschemmel-tech: In my understanding bot evidences support the statement completely.
+
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11647,7 +11884,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -11701,21 +11939,24 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
 ---
 
-### JLS-32 | Reviewed: ⨯ | Score: 0.0 
+### JLS-32 | Reviewed: ✔ | Score: 1.0 
 All pull requests to the develop branch in the nlohmann/json repository trigger a request for review from Niels Lohmann (@nlohmann).
+
+aschemmel-tech: nlohman is the repository codeowner
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11755,21 +11996,24 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|1.00 |
+|2026-01-20 10:12:02.554467|1.00 |
 
 
 
 ---
 
-### JLS-33 | Reviewed: ⨯ | Score: 0.0 
+### JLS-33 | Reviewed: ✔ | Score: 0.75 
 Outstanding CVEs are triaged in the nlohmann/json repository.
+
+aschemmel-tech: Security vulnerabilities reporting asks for severities, but this is given by the reporter
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11809,23 +12053,26 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.75 |
+|2026-01-20 10:12:02.554467|0.75 |
 
 
 
 ---
 
-### JLS-34 | Reviewed: ⨯ | Score: 0.0 
+### JLS-34 | Reviewed: ✔ | Score: 0.9 
 The nlohmann/json library has no external components or dependencies besides the C++ standard components.
+
+aschemmel-tech: I saw dependency to the "Hedley" header but with fixed version.
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
-| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.18 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12065,7 +12312,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.90 |
+|2026-01-20 10:12:02.554467|0.90 |
 
 
 
@@ -12074,12 +12322,14 @@ _None_
 ### JLS-35 | Reviewed: ⨯ | Score: 0.0 
 Pull requests in the nlohmann/json repository are merged only after running CI-tests and successfully passing the pipeline.
 
+aschemmel-tech: evidences support statement
+
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-UPDATES](TA.md#ta-updates)  | nlohmann/json library components, configurations and tools are updated under specified change and configuration management controls. | 0.65 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12126,7 +12376,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12422,7 +12673,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12479,7 +12731,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12532,7 +12785,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12589,7 +12843,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12639,7 +12894,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12703,7 +12959,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12760,7 +13017,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -12817,7 +13075,8 @@ _None_
 |2025-11-27 13:59:45|0.00 |
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13224,7 +13483,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13238,7 +13498,7 @@ The nlohmann/json library only consists of source code in the form of a single h
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13270,7 +13530,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13284,7 +13545,7 @@ The nlohmann/json project transparently lists any third party tools used in buil
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13316,7 +13577,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13330,9 +13592,9 @@ The eclipse-score/inc_nlohmann_json project mirrors the external nlohmann/json_t
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.18 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13445,7 +13707,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13459,7 +13722,7 @@ All third party tools used in nlohmann/json for building, testing and documentin
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.32 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13590,12 +13853,26 @@ This file provides an assessment of all third-party tools used in the developmen
 - **Mitigation**:
   - Coverage is also generated locally and in CI using `lcov` and viewed as HTML reports, so Coveralls results can be cross-checked against these local reports.
 
+### clang-tidy
+- **Role**: Clang-Tidy is used as static analysis tool to detect bug patterns, unsafe constructs, and style/performance issues in the code base. In nlohmann/json it is explicitly part of the project’s “Static analysis” quality assurance activities, and it is configured via a repository-wide [.clang-tidy](https://github.com/nlohmann/json/blob/develop/.clang-tidy) configuration file.
+- **Potential Misbehaviours**: 
+  - False positives (reporting issues that are not real problems) or false negatives (missing real issues).
+  - Results can vary between Clang-Tidy versions and depending on compile flags / include paths.
+- **Severity**: Medium - Clang-Tidy findings are advisory and incorrect or missing findings can reduce confidence and leave issues undiscovered, but the tool does not modify shipped artefacts by itself.
+- **Detectability**: Medium - False positives are usually spotted during review and false negatives are harder to detect and may only surface through other analyzers, tests, fuzzing, or user reports.
+- **Mitigation**: 
+  - Clang-Tidy is not the only analysis gate, results are complemented by other static analyzers (e.g. cppcheck, Coverity, Clang Static Analyzer) and dynamic testing (unit tests, fuzzing, sanitizers). 
+  - The .clang-tidy configuration is version-controlled and reviewed like normal code changes. 
+  - CI uses a controlled toolchain environment (e.g. the project CI image), reducing version drift and improving reproducibility.
+
 ### Coverity Scan
 - **Role**: Coverity Scan is a hosted static analysis service that regularly analyzes the nlohmann/json code base for potential defects. The nlohmann/json repo has a dedicated Coverity Scan entry (linked via the “Coverity Scan Build Status” badge in `README.md`), where findings are listed and tracked in a web dashboard.
 - **Potential Misbehaviours**: Could miss bugs (false negatives) or report non-issues (false positives)
 - **Severity**: Medium - Missed bugs or misinterpreted reports can affect the quality of the library.
 - **Detectability**: High - Coverity Scan findings are compared with results from other static analyzers (such as cppcheck and Codacy), compiler warnings, and the behaviour observed in tests and fuzzing. 
-- **Mitigation**: Multiple static analyzers (cppcheck, clang-tidy, Codacy), extensive testing.
+- **Mitigation**: 
+  - Multiple static analyzers (cppcheck, clang-tidy, Codacy), extensive testing. 
+  - Coverity Scan is used within S-CORE, where tool qualification evidence is maintained.
 
 ### cppcheck
 - **Role**: Cppcheck is a static analysis tool for C++ that is used to scan the nlohmann/json library code base for potential problems such as null dereferences, uninitialized variables, dead code, or suspicious constructs.
@@ -13657,7 +13934,9 @@ This file provides an assessment of all third-party tools used in the developmen
 - **Potential Misbehaviours**: lcov can misinterpret or partially ignore `gcov` data, so that some lines are shown as covered or uncovered incorrectly and generate incomplete or inconsistent HTML reports.
 - **Severity**: Low - lcov only reads coverage data and creates reports; it does not affect any code or the functionality of the lirary. 
 - **Detectability**: High - Inconsistencies can be detected by comparing lcov's HTML output with the coverage data uploaded to Coveralls.
-- **Mitigation**: Mitigation through cross-validation with Coveralls and manual inspection of coverage data.
+- **Mitigation**: 
+  - Mitigation through cross-validation with Coveralls and manual inspection of coverage data. 
+  - lcov is used within S-CORE, where tool qualification evidence is maintained.
 
 ### libFuzzer
 - **Role**: libFuzzer is LLVM's fuzzing engine that runs inside the test binary and uses code-coverage feedback to generate new inputs. In nlohmann/json it is used as the fuzzing backend for the fuzz harnesses under `tests/src/` (e.g. `fuzzer-parse_json.cpp`), each implementing `LLVMFuzzerTestOneInput` and calling APIs such as `json::parse` and the `from_*` functions for CBOR, MessagePack, UBJSON, and BJData. The same libFuzzer-based targets are also built and run by Google OSS-Fuzz, which executes them continuously with sanitizers to find crashes and undefined behaviour.
@@ -13745,6 +14024,7 @@ The highest-severity tools are those that directly affect the build and test art
 | cppcheck                   | Medium   | High          |
 | AppVeyor                   | Medium   | High          |
 | Coveralls                  | Medium   | Medium        |
+| clang-tidy                 | Medium   | Medium        |
 | AFL                        | Medium   | Low           |
 | libFuzzer                  | Medium   | Low           |
 | OSS-Fuzz                   | Medium   | Low           |
@@ -13790,6 +14070,7 @@ The nlohmann/json project employs a multi validation strategy with multiple redu
 - [Coveralls page for nlohmann/json](https://coveralls.io/github/nlohmann/json)
 - [Codacy project for nlohmann/json](https://app.codacy.com/gh/nlohmann/json)
 - [lcov project documentation](https://github.com/linux-test-project/lcov)
+- [clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
 
 ### Tool-specific external documentation
 
@@ -13824,7 +14105,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13839,7 +14121,7 @@ All source code of the nlohmann/json library is mirrored within eclipse-score/in
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
-| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.18 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13892,7 +14174,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -13936,7 +14219,8 @@ _None_
 |-|-|-|-|-|
 |2025-12-09 08:23:25|0.00 |0.00 |0.00 |0.00 |
 |2026-01-13 12:23:45|0.00 |0.00 |0.00 |0.00 |
-|2026-01-13 12:27:30.608761|0.00 |0.00 |0.00 |0.00 |
+|2026-01-20 09:05:12|0.00 |0.00 |0.00 |0.00 |
+|2026-01-20 10:12:02.554467|0.00 |0.00 |0.00 |0.00 |
 
 
 
@@ -13948,13 +14232,15 @@ Given the same version of the repository, configuration, and documented environm
 
 **Supported Requests:**
 
-_None_
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-14](JLS.md#jls-14)  | The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohmann_json coincides with the SHA value provided by Niels Lohmann for that version. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-14](JLS.md#jls-14)  | The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohmann_json coincides with the SHA value provided by Niels Lohmann for that version. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -13976,7 +14262,98 @@ _None_
 |-|-|-|
 |2025-12-09 08:23:25|0.00 |0.00 |
 |2026-01-13 12:23:45|0.00 |0.00 |
-|2026-01-13 12:27:30.608761|0.00 |0.00 |
+|2026-01-20 09:05:12|0.00 |0.00 |
+|2026-01-20 10:12:02.554467|0.00 |0.00 |
+
+
+
+---
+
+### JLS-57 | Reviewed: ⨯ | Score: 0.0 
+Outstanding bugs or misbehaviours of nlohmann/json are fetched and saved within eclipse-score/inc_nlohmann_json.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.34 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `website: https://github.com/eclipse-score/inc_nlohmann_json/blob/save_historical_data/TSF/misbehaviours.md`
+
+
+`https://github.com/eclipse-score/inc_nlohmann_json/blob/save_historical_data/TSF/misbehaviours.md`
+	- List of outstanding bugs as well as fixes for developed code that are outstanding, not yet applied.
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/JLS-57.svg)
+
+|date-time|JLS-57|
+|-|-|
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
+
+
+
+---
+
+### JLS-58 | Reviewed: ⨯ | Score: 0.0 
+Github hosted runners are used as the test environment for eclipse-score/inc_nlohmann_json.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [TA-TESTS](TA.md#ta-tests)  | All tests for the nlohmann/json library, and its build and test environments, are constructed from controlled/mirrored sources and are reproducible, with any exceptions documented. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `website: https://github.com/eclipse-score/inc_nlohmann_json/actions`
+
+
+`https://github.com/eclipse-score/inc_nlohmann_json/actions`
+	- Github actions page showing that eclipse-score/inc_nlohmann_json is using Github host environment.
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/JLS-58.svg)
+
+|date-time|JLS-58|
+|-|-|
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14022,7 +14399,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14206,7 +14584,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14266,7 +14645,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14319,7 +14699,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14379,7 +14760,8 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
 
 
@@ -14393,7 +14775,7 @@ The mirror of nlohmann/json is configured via infrastructure under direct contro
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
+| [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.18 | ⨯ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -14425,5 +14807,6 @@ _None_
 |-|-|
 |2025-12-09 08:23:25|0.00 |
 |2026-01-13 12:23:45|0.00 |
-|2026-01-13 12:27:30.608761|0.00 |
+|2026-01-20 09:05:12|0.00 |
+|2026-01-20 10:12:02.554467|0.00 |
 
