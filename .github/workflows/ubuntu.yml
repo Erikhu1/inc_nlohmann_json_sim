@@ -85,7 +85,7 @@ jobs:
             sudo apt-get install -y sqlite3
           fi
 
-          DB_DIR="TSF/data_storage"
+          DB_DIR="TSF"
           DB_PREFIX="MemoryEfficientTestResultData"
           LIMIT_BYTES=$((90 * 1024 * 1024))  # rotate at 90 MB
           today=$(date -u +%F)
@@ -150,7 +150,7 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
           # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF/data_storage' ':(exclude)TSF/data_storage/**'
+          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
@@ -242,7 +242,7 @@ jobs:
             sudo apt-get install -y sqlite3
           fi
 
-          DB_DIR="TSF/data_storage"
+          DB_DIR="TSF"
           DB_PREFIX="MemoryEfficientTestResultData"
           LIMIT_BYTES=$((90 * 1024 * 1024))  # rotate at 90 MB
           today=$(date -u +%F)
@@ -306,7 +306,7 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
           # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF/data_storage' ':(exclude)TSF/data_storage/**'
+          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
@@ -398,7 +398,7 @@ jobs:
             sudo apt-get install -y sqlite3
           fi
 
-          DB_DIR="TSF/data_storage"
+          DB_DIR="TSF"
           DB_PREFIX="MemoryEfficientTestResultData"
           LIMIT_BYTES=$((90 * 1024 * 1024))  # rotate at 90 MB
           today=$(date -u +%F)
@@ -462,7 +462,7 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
           # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF/data_storage' ':(exclude)TSF/data_storage/**'
+          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
