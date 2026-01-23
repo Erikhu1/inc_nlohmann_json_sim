@@ -122,7 +122,7 @@ jobs:
 
           echo "TSF_PERSIST_DB=${latest}" >> "$GITHUB_ENV"
           echo "[info] Using persistent DB: ${latest}"
-
+ 
 
       - name: append test data
         run: |
@@ -159,8 +159,6 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
-            # Clean up any DB files that might block the checkout
-            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
@@ -318,8 +316,6 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
-            # Clean up any DB files that might block the checkout
-            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
@@ -478,8 +474,6 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
-            # Clean up any DB files that might block the checkout
-            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
@@ -508,7 +502,6 @@ jobs:
 
       - name: Generate ubuntu artifact
         run: |
-          echo "Generating ubuntu artifact..."
           mkdir -p ubuntu
           if [ -f MemoryEfficientTestResults.db ]; then
             mv MemoryEfficientTestResults.db ubuntu/MemoryEfficientTestResults.db
