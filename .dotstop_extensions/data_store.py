@@ -80,12 +80,14 @@ def push_my_data(data: list[dict]):
     # Starting with trudag v2025.09.16, the commit date is already a unix timestamp (int).
     # For backward compatibility, handle both string and int formats.
     datum_value = info.get("Commit date/time")
-    if isinstance(datum_value, str):
+    if isinstance(datum_value, int):
+        # New format: already a unix timestamp, use as-is
+        datum = datum_value
+    elif isinstance(datum_value, str):
         # Old format: string date, convert to timestamp
         datum = int(datetime.strptime(datum_value, "%a %b %d %H:%M:%S %Y").timestamp())
     else:
-        # New format: already a unix timestamp
-        datum = datum_value
+        raise TypeError(f"Unexpected type for 'Commit date/time': {type(datum_value)}")
     # check if current commit coincides with existing commit
     cursor.execute("SELECT MAX(date) AS recent_commit FROM commit_info")
     if datum == cursor.fetchone()[0]:
