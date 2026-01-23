@@ -37,17 +37,16 @@ def get_my_data() -> list[dict]:
         command = f"SELECT * FROM scores WHERE date=={info[0]}"
         cursor.execute(command)
         scores = cursor.fetchall()
-        # Convert unix timestamp to ISO 8601 format for trudag compatibility
-        # trudag v2025.10.22 expects ISO format string, not int
+        # Return unix timestamp directly for trudag v2025.10.22+ compatibility
+        # trudag expects int (unix timestamp), not string
         date_timestamp = info[0]
-        date_iso = datetime.fromtimestamp(date_timestamp).strftime("%a %b %d %H:%M:%S %Y")
         if len(info) == 6:
             branch_name = ""
         else:
             branch_name = info[6] if info[6]!=None else ""
         commit = {"Repository root": info[1],
                   "Commit SHA": info[2],
-                  "Commit date/time": date_iso, 
+                  "Commit date/time": date_timestamp, 
                   "Commit tag": info[3],
                   "CI job id": info[4],
                   "Schema version": info[5],
