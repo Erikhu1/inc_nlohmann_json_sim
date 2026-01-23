@@ -159,6 +159,8 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
+            # Clean up any DB files that might block the checkout
+            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
@@ -316,6 +318,8 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
+            # Clean up any DB files that might block the checkout
+            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
@@ -474,6 +478,8 @@ jobs:
             git stash apply
           else
             # For push events, switch back to the working branch
+            # Clean up any DB files that might block the checkout
+            git clean -fd TSF/MemoryEfficientTestResultData*.db || true
             git checkout $branch_name
             git stash apply
           fi
