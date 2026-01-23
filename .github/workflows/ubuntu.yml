@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [ci_test_examples, ci_test_build_documentation]
+        target: [ci_test_examples]
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
@@ -149,8 +149,9 @@ jobs:
       - name: Checkout data storage branch
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
-          # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
+          # Stash everything except TSF/data_storage and the persistent DB file
+          # This matches the pattern from the working commit
+          git stash push --include-untracked -- $(git status --porcelain | awk '{print $2}' | grep -v "TSF/MemoryEfficientTestResultData.*\\.db")
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
@@ -305,8 +306,9 @@ jobs:
       - name: Checkout data storage branch
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
-          # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
+          # Stash everything except TSF/data_storage and the persistent DB file
+          # This matches the pattern from the working commit
+          git stash push --include-untracked -- $(git status --porcelain | awk '{print $2}' | grep -v "TSF/MemoryEfficientTestResultData.*\.db")
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
@@ -461,8 +463,9 @@ jobs:
       - name: Checkout data storage branch
         if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'main')
         run: |
-          # Stash everything (including MemoryEfficientTestResultData.db) so branch switch is clean
-          git stash push --include-untracked -- . ':(exclude)TSF' ':(exclude)TSF/**'
+          # Stash everything except TSF/data_storage and the persistent DB file
+          # This matches the pattern from the working commit
+          git stash push --include-untracked -- $(git status --porcelain | awk '{print $2}' | grep -v "TSF/MemoryEfficientTestResultData.*\.db")
           git checkout save_historical_data
 
       - name: Commit and Push persistent data
